@@ -11392,6 +11392,11 @@ p {
     position: relative;
     z-index: 1;
   }
+
+  .about-heading-img {
+    height: 490px;
+    width: auto;
+  }
 }
 
 .cta {
