@@ -11428,12 +11428,17 @@ p {
     width: 68%;
     float: right;
   }
+  .intro .intro2-img {
+    width: 60%;
+    float: right;
+  }
   .intro .intro-text {
     left: 0;
     width: 60%;
     margin-top: 3rem;
     position: absolute;
   }
+
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
@@ -11464,6 +11469,12 @@ p {
     margin-top: -3rem;
     max-width: 50vw;
   }
+}
+
+.foto-guille {
+  height: 550px;
+  width: 850px;
+  object-fit: cover;
 }
 
 .list-hours {
