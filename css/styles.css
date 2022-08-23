@@ -604,6 +604,12 @@ progress {
   height: auto;
 }
 
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+  position: 75%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -639,6 +645,10 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+.container2 {
+  margin-top: 100px;
 }
 
 @media (min-width: 576px) {
@@ -11325,6 +11335,10 @@ p {
   margin-bottom: 5rem;
 }
 
+.page-section2 {
+  margin-top: 350px;
+}
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -11434,9 +11448,14 @@ p {
     float: right;
   }
   .intro .intro2-img {
-    width: 60%;
+    width: 85%;
     float: right;
   }
+
+  .intro2 {
+    align-content: center;
+  }
+
   .intro .intro-text {
     left: 0;
     width: 60%;
