@@ -648,7 +648,7 @@ progress {
 }
 
 .container2 {
-  margin-top: 100px;
+  margin-top: 300px;
 }
 
 @media (min-width: 576px) {
@@ -665,10 +665,20 @@ progress {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+
+  .intro .intro2-img {
+    width: 90%;
+    float: right;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+
+  .intro .intro2-img {
+    width: 90%;
+    float: right;
   }
 }
 @media (min-width: 1400px) {
@@ -11447,11 +11457,7 @@ p {
     width: 68%;
     float: right;
   }
-  .intro .intro2-img {
-    width: 85%;
-    float: right;
-  }
-
+  
   .intro2 {
     align-content: center;
   }
@@ -11464,6 +11470,12 @@ p {
   }
 
   .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+  .intro .intro-text .intro-button2 {
     width: 100%;
     left: 0;
     position: absolute;
